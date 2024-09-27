@@ -170,7 +170,7 @@ export default function Profile() {
           {loading ? "Loading..." : "Update"}
         </button>
       </form>
-      <div className="flex justify-around mt-5">
+      <div className="flex justify-between mt-5">
         <span
           onClick={handleDeleteAccount}
           className="text-red-700 cursor-pointer"
